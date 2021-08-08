@@ -1,1 +1,4 @@
-# AuthApp using ReactJs and FirebaseAuth
+# AuthApp
+- ReactJs
+- FirebaseAuth
+- Bootstrap
