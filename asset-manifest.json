@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/auth-react/static/js/main.331ccdb9.chunk.js",
-    "main.js.map": "/auth-react/static/js/main.331ccdb9.chunk.js.map",
-    "runtime-main.js": "/auth-react/static/js/runtime-main.ad131066.js",
-    "runtime-main.js.map": "/auth-react/static/js/runtime-main.ad131066.js.map",
-    "static/css/2.818011ed.chunk.css": "/auth-react/static/css/2.818011ed.chunk.css",
-    "static/js/2.c8b84498.chunk.js": "/auth-react/static/js/2.c8b84498.chunk.js",
-    "static/js/2.c8b84498.chunk.js.map": "/auth-react/static/js/2.c8b84498.chunk.js.map",
-    "index.html": "/auth-react/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/auth-react/static/css/2.818011ed.chunk.css.map",
-    "static/js/2.c8b84498.chunk.js.LICENSE.txt": "/auth-react/static/js/2.c8b84498.chunk.js.LICENSE.txt"
+    "main.js": "http://denzord.github.io/auth-react/static/js/main.81f2fec2.chunk.js",
+    "main.js.map": "http://denzord.github.io/auth-react/static/js/main.81f2fec2.chunk.js.map",
+    "runtime-main.js": "http://denzord.github.io/auth-react/static/js/runtime-main.5c13ddda.js",
+    "runtime-main.js.map": "http://denzord.github.io/auth-react/static/js/runtime-main.5c13ddda.js.map",
+    "static/css/2.818011ed.chunk.css": "http://denzord.github.io/auth-react/static/css/2.818011ed.chunk.css",
+    "static/js/2.7444c8f2.chunk.js": "http://denzord.github.io/auth-react/static/js/2.7444c8f2.chunk.js",
+    "static/js/2.7444c8f2.chunk.js.map": "http://denzord.github.io/auth-react/static/js/2.7444c8f2.chunk.js.map",
+    "index.html": "http://denzord.github.io/auth-react/index.html",
+    "static/css/2.818011ed.chunk.css.map": "http://denzord.github.io/auth-react/static/css/2.818011ed.chunk.css.map",
+    "static/js/2.7444c8f2.chunk.js.LICENSE.txt": "http://denzord.github.io/auth-react/static/js/2.7444c8f2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad131066.js",
+    "static/js/runtime-main.5c13ddda.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.c8b84498.chunk.js",
-    "static/js/main.331ccdb9.chunk.js"
+    "static/js/2.7444c8f2.chunk.js",
+    "static/js/main.81f2fec2.chunk.js"
   ]
 }
