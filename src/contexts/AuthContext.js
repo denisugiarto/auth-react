@@ -14,6 +14,11 @@ export function AuthProvider({ children }) {
   function signup(email, password) {
     return auth.createUserWithEmailAndPassword(email, password);
   }
+
+  function emailVerification() {
+    return currentUser.sendEmailVerification();
+  }
+  
   function login(email, password) {
     return auth.signInWithEmailAndPassword(email, password);
   }
@@ -21,6 +26,7 @@ export function AuthProvider({ children }) {
   function logout() {
     return auth.signOut();
   }
+
 
   function resetPassword(email) {
     return auth.sendPasswordResetEmail(email);
@@ -30,12 +36,19 @@ export function AuthProvider({ children }) {
   }
 
   function updatePassword(password) {
-    return currentUser.updatePassword(password)
+    return currentUser.updatePassword(password);
+  }
+
+  function deleteAccount() {
+    return currentUser.delete();
   }
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       setCurrentUser(user);
+      if (user && !user.emailVerified) {
+        user.sendEmailVerification();
+      }
       setLoading(false);
     });
     return unsubscribe;
@@ -44,11 +57,13 @@ export function AuthProvider({ children }) {
   const value = {
     currentUser,
     signup,
+    emailVerification,
     login,
     logout,
     resetPassword,
     updateEmail,
-    updatePassword
+    updatePassword,
+    deleteAccount
   };
   return (
     <AuthContext.Provider value={value}>
