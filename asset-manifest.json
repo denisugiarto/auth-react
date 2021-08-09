@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "http://denzord.github.io/auth-react/static/js/main.81f2fec2.chunk.js",
-    "main.js.map": "http://denzord.github.io/auth-react/static/js/main.81f2fec2.chunk.js.map",
-    "runtime-main.js": "http://denzord.github.io/auth-react/static/js/runtime-main.5c13ddda.js",
-    "runtime-main.js.map": "http://denzord.github.io/auth-react/static/js/runtime-main.5c13ddda.js.map",
-    "static/css/2.818011ed.chunk.css": "http://denzord.github.io/auth-react/static/css/2.818011ed.chunk.css",
-    "static/js/2.7444c8f2.chunk.js": "http://denzord.github.io/auth-react/static/js/2.7444c8f2.chunk.js",
-    "static/js/2.7444c8f2.chunk.js.map": "http://denzord.github.io/auth-react/static/js/2.7444c8f2.chunk.js.map",
-    "index.html": "http://denzord.github.io/auth-react/index.html",
-    "static/css/2.818011ed.chunk.css.map": "http://denzord.github.io/auth-react/static/css/2.818011ed.chunk.css.map",
-    "static/js/2.7444c8f2.chunk.js.LICENSE.txt": "http://denzord.github.io/auth-react/static/js/2.7444c8f2.chunk.js.LICENSE.txt"
+    "main.js": "https://denzord.github.io/auth-react/static/js/main.ff331309.chunk.js",
+    "main.js.map": "https://denzord.github.io/auth-react/static/js/main.ff331309.chunk.js.map",
+    "runtime-main.js": "https://denzord.github.io/auth-react/static/js/runtime-main.f0540fc9.js",
+    "runtime-main.js.map": "https://denzord.github.io/auth-react/static/js/runtime-main.f0540fc9.js.map",
+    "static/css/2.818011ed.chunk.css": "https://denzord.github.io/auth-react/static/css/2.818011ed.chunk.css",
+    "static/js/2.c6d1f5b4.chunk.js": "https://denzord.github.io/auth-react/static/js/2.c6d1f5b4.chunk.js",
+    "static/js/2.c6d1f5b4.chunk.js.map": "https://denzord.github.io/auth-react/static/js/2.c6d1f5b4.chunk.js.map",
+    "index.html": "https://denzord.github.io/auth-react/index.html",
+    "static/css/2.818011ed.chunk.css.map": "https://denzord.github.io/auth-react/static/css/2.818011ed.chunk.css.map",
+    "static/js/2.c6d1f5b4.chunk.js.LICENSE.txt": "https://denzord.github.io/auth-react/static/js/2.c6d1f5b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c13ddda.js",
+    "static/js/runtime-main.f0540fc9.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.7444c8f2.chunk.js",
-    "static/js/main.81f2fec2.chunk.js"
+    "static/js/2.c6d1f5b4.chunk.js",
+    "static/js/main.ff331309.chunk.js"
   ]
 }
