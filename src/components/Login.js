@@ -20,11 +20,9 @@ export default function Login() {
       await login(emailRef.current.value, passwordRef.current.value);
       history.push("/");
     } catch (error) {
-      console.log(error.code);
       error.code === "auth/user-not-found"
         ? setError("User not found")
         : setError("Password wrong. Try again or use Forget Password");
-      // setError("Failed to sign in");
     }
     setLoading(false);
   }

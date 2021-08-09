@@ -75,8 +75,6 @@ export default function Signup() {
         error.code === "auth/wrong-password" ||
         error.code === "auth/email-already-exist";
       const isBusy = error.code === "auth/too-many-requests";
-      console.log(error.code);
-      console.log("isRegisted = " + isRegisted);
       if (isRegisted) {
         setError("User already exist");
         setMessage("");
