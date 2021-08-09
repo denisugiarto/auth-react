@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import { AuthProvider } from "../contexts/AuthContext";
 import PrivateRoute from "./PrivateRoute";
 import Login from './Login';
@@ -15,7 +15,7 @@ function App() {
     style={{ minHeight: "100vh" }}
     >
         <div className="w-100" style={{ maxWidth: "400px" }}>
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router>
             <AuthProvider>
               <Switch>
                 <PrivateRoute exact path="/" component={Dashboard} />
